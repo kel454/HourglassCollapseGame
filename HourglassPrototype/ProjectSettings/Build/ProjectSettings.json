@@ -1,0 +1,13 @@
+{
+"companyName": "Stin Crow Voden",
+"productName": "HourglassPrototype",
+"dataUrl": "ProjectSettings.data.unityweb",
+"asmCodeUrl": "ProjectSettings.asm.code.unityweb",
+"asmMemoryUrl": "ProjectSettings.asm.memory.unityweb",
+"asmFrameworkUrl": "ProjectSettings.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
