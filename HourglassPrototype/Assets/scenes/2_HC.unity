@@ -121,7 +121,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 320148028}
-  - component: {fileID: 320148032}
   - component: {fileID: 320148031}
   - component: {fileID: 320148030}
   - component: {fileID: 320148029}
@@ -148,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 815.7832, y: 100.71701}
-  m_SizeDelta: {x: 409, y: 339.3}
+  m_AnchoredPosition: {x: 1044, y: 95.99999}
+  m_SizeDelta: {x: 544.2, y: 440.7}
   m_Pivot: {x: 1.9373878, y: 0.3960123}
 --- !u!114 &320148029
 MonoBehaviour:
@@ -222,8 +221,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ebb2ea8e010c63b43aba8686614b57e6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -236,17 +235,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 320148027}
---- !u!114 &320148032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 320148027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a0a18a9080188b438017b4bd583dd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &358636655
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +302,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Haze getting his goggles ripped off
+  m_Text: 
 --- !u!222 &358636658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -417,6 +405,8 @@ MonoBehaviour:
   Two: {fileID: 320148027}
   Three: {fileID: 1461445987}
   Four: {fileID: 0}
+  Five: {fileID: 0}
+  Six: {fileID: 0}
 --- !u!1 &1162000326
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Haze getting up and running
+  m_Text: 
 --- !u!222 &1384343078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -635,7 +625,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1389759192}
-  - component: {fileID: 1389759196}
   - component: {fileID: 1389759195}
   - component: {fileID: 1389759194}
   - component: {fileID: 1389759193}
@@ -662,8 +651,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233, y: 136}
-  m_SizeDelta: {x: 404.1, y: 339.3}
+  m_AnchoredPosition: {x: -289, y: 78}
+  m_SizeDelta: {x: 505.1, y: 539}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1389759193
 MonoBehaviour:
@@ -736,8 +725,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 2a8a9a9fdd282c146b5aa2784b0483c1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -750,17 +739,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1389759191}
---- !u!114 &1389759196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1389759191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a0a18a9080188b438017b4bd583dd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1461445987
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +747,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1461445988}
-  - component: {fileID: 1461445992}
   - component: {fileID: 1461445991}
   - component: {fileID: 1461445990}
   - component: {fileID: 1461445989}
@@ -796,8 +773,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024795998, y: -192.01685}
-  m_SizeDelta: {x: 788.4, y: 196.7}
+  m_AnchoredPosition: {x: 21.300013, y: -209.5}
+  m_SizeDelta: {x: 716.8, y: 332.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461445989
 MonoBehaviour:
@@ -870,8 +847,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 6bc0552354c5093489f5417438408168, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -884,17 +861,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1461445987}
---- !u!114 &1461445992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1461445987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a0a18a9080188b438017b4bd583dd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1517210628
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,9 +928,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Dornen''s silhouette in Haze''s goggles
-
-'
+  m_Text: 
 --- !u!222 &1517210631
 CanvasRenderer:
   m_ObjectHideFlags: 0
