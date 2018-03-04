@@ -56,3 +56,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/16_HC.unity
     guid: 00aee13270f465740934eef8db63574d
+  - enabled: 1
+    path: Assets/scenes/7.5_HC.unity
+    guid: 761743e8bbc35e34bb93fb4edf64cb65

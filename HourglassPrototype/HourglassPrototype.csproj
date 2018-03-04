@@ -285,9 +285,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\EndMaze.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
     <Compile Include="Assets\scripts\HourglassRotate.cs" />
     <Compile Include="Assets\scripts\ImageAppear.cs" />
+    <Compile Include="Assets\scripts\MoveCircle.cs" />
+    <Compile Include="Assets\scripts\MoveMaze.cs" />
     <Compile Include="Assets\scripts\MovePiece.cs" />
     <Compile Include="Assets\scripts\MovePieceAlt.cs" />
     <Compile Include="Assets\scripts\old scripts\MouseHover.cs" />

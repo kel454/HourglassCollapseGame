@@ -17,6 +17,7 @@ Assets/scenes/13_HC.unity
 Assets/scenes/14_HC.unity
 Assets/scenes/15_HC.unity
 Assets/scenes/16_HC.unity
+Assets/scenes/7.5_HC.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -30,6 +31,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+f1b15007e56696bb49f8263a9cf4616d Assembly-CSharp.dll:.MoveMaze
 a33ccc73ee14d7adebf7682dd94aafb5 Assembly-CSharp.dll:.PuzzleEnd
 7ed058a4cff2150c7b98114636fc8b16 Assembly-CSharp.dll:.MovePieceAlt
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -132,6 +134,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+2c957e08c89c189705b6cd6338480a05 Assembly-CSharp.dll:.MoveCircle
 8a6651c8ab00a6eaf191fb80f441b272 Assembly-CSharp.dll:.ImageAppear
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MouseHover
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
@@ -164,5 +167,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HourglassRotate
-a59af93fab5eea5a34922b680f65c186 Assembly-CSharp.dll:.Rotation2
+19ee730807967c5c5eeabbbdfdff4862 Assembly-CSharp.dll:.Rotation2
 b99c43181e1b9a8d844ed98e0c6bd0e1 Assembly-CSharp.dll:.Rotation
+e05644194373475f16c406f1b622c71d Assembly-CSharp.dll:.EndMaze

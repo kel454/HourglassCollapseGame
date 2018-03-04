@@ -10,11 +10,17 @@ public class Rotation2 : MonoBehaviour
     public float offset = 0.0f;
     public float rotateSpeed = 0.001f;
 
+    public GameObject Changer;
+
+    int Hits;
+
     bool MouseDown;
     // Use this for initialization
     void Start()
     {
         MouseDown = false;
+
+        Changer.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +34,12 @@ public class Rotation2 : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, rotation_z + offset);
         }
 
+        if (Hits == 4)
+        {
+            Changer.gameObject.SetActive(true);
+        }
+
+        Debug.Log (Hits);
     }
 
     void OnMouseDown()
@@ -39,4 +51,11 @@ public class Rotation2 : MonoBehaviour
     {
         MouseDown = false; 
     }
-}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Hits++;
+        Debug.Log("it is colliding");
+    }
+
+        }
