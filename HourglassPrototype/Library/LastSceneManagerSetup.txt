@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/6_HC.unity
+- path: Assets/scenes/8_HC.unity
   isLoaded: 1
   isActive: 1
